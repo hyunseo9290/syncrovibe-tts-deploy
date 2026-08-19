@@ -13,3 +13,5 @@ soundfile>=0.12.0
 numpy==1.26.4
 torch
 git+https://github.com/myshell-ai/MeloTTS.git
+mecab-python3
+unidic-lite
