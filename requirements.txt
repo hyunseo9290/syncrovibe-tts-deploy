@@ -1,0 +1,39 @@
+# SyncroVibe TTS API - 배포용 전체 의존성
+# (fastapi/uvicorn 등 API 서버 의존성 + MeloTTS/OpenVoice가 import 시점에
+#  실제로 요구하는 하위 패키지들. 로컬 macOS 설치 과정에서 하나씩 확인된 목록)
+
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+pydantic>=2.0.0
+
+soundfile>=0.12.0
+numpy>=1.24.0,<2.0.0
+librosa
+
+# --- MeloTTS 가 melo.text.cleaner 로딩 시 필요로 하는 것들 ---
+transformers
+tqdm
+jieba
+cn2an
+gruut
+g2p_en
+cached_path
+pydub
+langid
+anyascii
+eng_to_ipa
+g2pkk
+mecab-python3
+unidic-lite
+loguru
+pykakasi
+distance
+pypinyin
+unidecode
+txtsplit
+fugashi
+nltk
+
+# --- OpenVoice 가 필요로 하는 것 ---
+wavmark

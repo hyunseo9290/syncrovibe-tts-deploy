@@ -1,0 +1,4 @@
+레퍼런스 클립 출처 (CC BY 4.0 attribution)
+==================================================
+ref_male.wav: LibriTTS-R (speaker_3), CC BY 4.0, http://www.openslr.org/141/
+ref_female.wav: LibriTTS-R (speaker_9), CC BY 4.0, http://www.openslr.org/141/

@@ -1,0 +1,13 @@
+# SyncroVibe TTS 경량 API 의존성
+# 기존 TTS 스택(MeloTTS + OpenVoice)은 이미 설치돼 있다고 가정.
+# (설치 방법은 SyncroVibe_설치가이드.docx 참고)
+# 이 파일은 API 서버에 추가로 필요한 것만 담는다.
+
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+pydantic>=2.0.0
+
+# 아래는 TTS 스택에 이미 포함되어 있으나, 명시적으로 표기
+soundfile>=0.12.0
+numpy==1.26.4
