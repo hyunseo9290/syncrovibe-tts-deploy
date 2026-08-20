@@ -16,3 +16,4 @@ git+https://github.com/myshell-ai/MeloTTS.git
 mecab-python3
 unidic-lite
 setuptools
+setuptools==69.5.1
